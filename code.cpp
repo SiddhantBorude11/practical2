@@ -1,13 +1,13 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-int num1,num2,sum;
-cout<<"Enter number 1";
-cin>>num1;
-cout<<"Enter number 2";
-cin>>num2;
-sum = num1+num2;
-cout<<"Sum=" <<sum<<endl;
-return 0;
+int main() {
+    int num1, num2, sum;
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+    sum = num1 + num2;
+    cout << "Sum = " << sum << std::endl;
+    return 0;
 }
